@@ -45,6 +45,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    concurrent-ruby (1.1.9)
     daemons (1.1.9)
     debug_inspector (0.0.2)
     erubis (2.7.0)
@@ -85,7 +86,8 @@ GEM
       multi_xml (>= 0.5.2)
     httpauth (0.2.0)
     hub (1.11.1)
-    i18n (0.6.9)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
